@@ -12,6 +12,6 @@ class Example {
 
         Example obj = new Example();
         obj.f1();
-        System.out.println("SUjan is khokka in java");
+        System.out.println("Suajan is khokka in java");
 }
 }
