@@ -1,0 +1,6 @@
+when ever a subclass need to refer to its immediate superclass , it can do so by use of keywprd super .
+
+- It has two general forms 
+1. The first calls the super class constructor ;
+2. It is used to access a member of the super class that has been hidden by a member of a class ;
+super() must always be the first statement executed inside a subclass constructor
