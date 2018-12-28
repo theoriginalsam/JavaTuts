@@ -1,0 +1,7 @@
+#final with inheritance
+
+1. as constant 
+2. final to prevent overriding in inheritance
+3. to prevent inheritance .
+>Code
+class A
