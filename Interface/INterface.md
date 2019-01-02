@@ -1,0 +1,7 @@
+An interface can be  declared a member of a class or another inteface .
+Such ans interface can be called member or nested interface .
+ it can be dreclared as public,private or protected.
+e.g  H/W
+
+>interface can be extended.
+
