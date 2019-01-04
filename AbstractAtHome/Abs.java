@@ -11,6 +11,7 @@ A(){
 
 class B extends A{
 public void f2(){
+    
     System.out.println("More");
 }
 }
