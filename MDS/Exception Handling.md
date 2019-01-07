@@ -33,4 +33,7 @@
  ```
 
 
-><b>Here javaruntime system detects the attempt to divide by 0, it constructs a exception obj and then throws this exception.THis causes the execution of exe class to stop because once an exception is thrown ,it must be caught by an exception handler and dealt with it immediately</b>
+><b>Here javaruntime system detects the attempt to divide by 0, it constructs a exception obj and then throws this exception.This causes the execution of exe class to stop because once an exception is thrown ,it must be caught by an exception handler and dealt with it immediately</b>
+
+
+>**Here we have not supplied any exception handler on our own so exception i caught by default handler provided by java run time system.**
