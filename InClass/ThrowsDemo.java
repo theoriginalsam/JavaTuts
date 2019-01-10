@@ -3,7 +3,7 @@ class ThrowsDemo{
         
         System.out.println("Inside throw");
         //throw new ArithmeticException() ;
-throw new IllegalAccessError() ;
+throw new IllegalAccessException() ;
     }
     public static void main(String[] args) {
         try{
