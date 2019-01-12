@@ -20,6 +20,6 @@ When you wabt to ensure that a subclass does indeed ,override all necessary meth
 
 
 
--these abstract methods are sometiome reffered to as subclass responsibility because they have no implementaition specified in the subclass . Thus subclass must over ride them.
+-these abstract methods are sometime referred to as subclass responsibility because they have no implementation specified in the subclass . Thus subclass must over ride them.
 
 -Abstract class cannot be directly instantiated with new operator i.e no object
