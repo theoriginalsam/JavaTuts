@@ -16,7 +16,7 @@
     }
     class B extends A{
 
-        void main(){     //illigal
+        void main(){     //illegal because the class cannot override
 
         } 
     }
