@@ -22,3 +22,17 @@
       4 flush()
       --to gurantee our data including last char also is written property.
       5 Close()
+
+
+      # FileReader (low level Reader )
+      - to read character data or text data 
+      * constructor 
+      1. FileReader fr = new FileReader(String fname );
+      2. FileReader fr = new FileReader(File f);
+
+      * Method 
+      1. int read() 
+         unicode value of character
+        2. int read ( char [] ch)
+        no. of character copied from file into array
+        3 void close 
