@@ -30,7 +30,7 @@ catch(FileNotFoundException ex){     //Catching the exception and the displaying
     System.out.println(ex.getMessage());
 }
 
-finally("Have a great time");
+
 
 }
 

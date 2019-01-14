@@ -8,7 +8,7 @@ import java.io.*;
 
 
     class Challenge {
-    public static void main(String[] args) throws ArrayIndexOutOfBoundsException  {
+    public static void main(String[] args)  {
     String loc = "/Users/samir/Desktop" + args[0];
 
     if (args[1].equals("-c")){
@@ -16,7 +16,7 @@ import java.io.*;
          try{
             File file = new File(loc);
                 if(file.createNewFile()){
-                 System.out.println("File is m=now creted");
+                 System.out.println("File is now creted");
                 }
 
                 else{
