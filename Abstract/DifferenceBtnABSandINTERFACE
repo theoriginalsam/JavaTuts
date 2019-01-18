@@ -1,0 +1,8 @@
+ABs
+ 1. Methods can have defination/body in them even if it is an abstract class.
+
+
+
+ INTERFACE
+
+ 1. Methods can't have body.
