@@ -7,7 +7,7 @@ Abstract class
 -ONe way this situation can occur is when a super class is unable to create a meaning ful implementation for a method 
 When you wabt to ensure that a subclass does indeed ,override all necessary method . Javas solutuion is the abstract method.
 
->Syntax of abstract method.
+>**Syntax of abstract method.**
 
 
         abstract type name(parameter list );
