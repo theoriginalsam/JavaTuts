@@ -15,6 +15,7 @@ class ChainedException{
         catch(NullPointerException e){
             System.out.println("Caught"+e);
             System.out.println("Original cause"+e.getCause());
+
         }
     }
 
