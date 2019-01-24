@@ -1,4 +1,4 @@
- > # Applet 
+ ># Applet 
 
 
   >init()
@@ -24,3 +24,61 @@
  >destroy()
 
  **It is called when the environment determines that your applets need to be removed completely from memory . At this point you should free up any resources the applet may be using.The stop() is always called before destroy().**
+
+
+# The HTML APPLET Tag 
+   
+syntax :
+
+    <APPLET 
+    [CODEBASE=codebaseURL]
+    CODE=appletFile
+    [ALT=alternateText]
+    [NAME=appletInstanceName]
+    WIDTH = pixels
+    HEIGHT=pixels
+    [ALIGN=alignment]
+    [VSPACE=pixels]
+    [HSPACE=pixels]
+    >
+
+    [<PARAM NAME=attributeName VALUE=AttributeValue>]
+    .
+    ..
+    .
+    [HTML Displayed in the absence of Java]
+    </APPLET>
+
+**It is an optional attribute that specifies the base url of the applet code,which is the directory taht will be searched for the applets executable class file**
+
+>Code 
+
+Code is the required attribute that gives the name of the file conaining of the applet compiled .class file.
+This file is related to the code based URL of the applet.
+
+ The HTML document URL directory is used as the code based if this atribute is not specified.
+
+> ALT 
+
+ ALT tag is an optional attribute used to specify a short texxt message that should be displayed if the browser recognized the applet tag but can't currently run JAVA applet.
+
+ >Name attribute
+
+ Name attribute is an optional attribute used to specify a name for the applet instance. Name attribute is used in order to communicate btn applets on the same page
+
+>Width and Height
+
+ Width and height are the required attribute that gives the size of the applet display area.
+
+ >Align
+
+ Align is opt attribute that specifies the allignment of the applet.The possible value are left ,right ,top ,bottom ,middle ,baseline ,Texttop, abs Middle ,Abs Bottom
+
+ >V space and H space 
+
+ These are optional V space specifies the space in pixels above and below the applet .H sapce specifies the space in pixels on each side of the applet.
+
+> Param name 
+
+ It helps to specify applet specific arguments.
+ Applet access their attribute with the getParameter()
