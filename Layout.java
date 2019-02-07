@@ -7,12 +7,14 @@ class Layout extends Frame {
     public Layout(String title )
     {
         super(title);
-        setLayout(new BorderLayout());
-        add("North",new Button("North"));
-        add("South",new Button("South"));
-        add("East",new Button("East"));
-        add("West",new Button("West"));
-        add("Center",new Button("Center"));
+        setLayout(new GridLayout(2,3));
+        
+        add(new Button("1"));
+        add(new Button("2"));
+        add(new Button("3"));
+        add(new Button("4"));
+        add(new Button("5"));
+        add(new Button("6"));
 
     }
 

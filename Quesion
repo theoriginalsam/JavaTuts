@@ -1,0 +1,7 @@
+You are in a market where you can find 'n' different models of a substance. 
+Each different models has their own different cost per unit. You have a list of quantities 
+of each models you have to buy.After entering to the shop, you are given the list of cost per 
+unit of each model. Due to Dashain offer, you are provided with the unique opportunity.You are 
+allowed to interchange the cost per unit of models with one another. Choose the combination of 
+list of quantity and list of interchanged cost per unit such that 
+total cost of the substance is lowest possible and output that minimum total cost.
