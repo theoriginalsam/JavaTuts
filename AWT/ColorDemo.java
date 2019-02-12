@@ -44,6 +44,23 @@ public class ColorDemo extends Applet{
      g.drawLine(10, 80, 80, 80);
      g.drawLine(80, 10, 80, 80);
 
+
+     int [] xValues = {20,40,50,30,20,15};
+     int [] yValues = {50,50,50,80,80,60};
+     Polygon polygon1 = new Polygon(xValues,yValues,60);
+     g.setColor(new Color(0,255,0));
+     g.drawPolygon(polygon1);
+
+     Polygon polygon2 = new Polygon();
+     polygon2.addPoint(165,135);
+     polygon2.addPoint(205,185);
+      polygon2.addPoint(295,260);
+       polygon2.addPoint(350,120);
+       polygon2.addPoint(450,220);
+       polygon2.addPoint(550,320);
+ 
+       g.fillPolygon(polygon2);
+
  
 
 
